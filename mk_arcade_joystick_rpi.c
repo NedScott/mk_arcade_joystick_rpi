@@ -166,7 +166,7 @@ static struct mk *mk_base;
 static const int mk_max_arcade_buttons = 12;
 
 // Map of the gpios :                     up, down, left, right, start, select, a,  b,  tr, y,  x,  tl
-static const int mk_arcade_gpio_maps[] = {4,  17,    27,  22,    10,    9,      25, 24, 23, 18, 15, 14 };
+static const int mk_arcade_gpio_maps[] = {4,  17,    27,  22,    10,    9,      8, 24, 23, 18, 15, 14 };
 // 2nd joystick on the b+ GPIOS                 up, down, left, right, start, select, a,  b,  tr, y,  x,  tl
 static const int mk_arcade_gpio_maps_bplus[] = {11, 5,    6,    13,    19,    26,     21, 20, 16, 12, 7,  8 };
 // Map of the mcp23017 on GPIOA            up, down, left, right, start, select
